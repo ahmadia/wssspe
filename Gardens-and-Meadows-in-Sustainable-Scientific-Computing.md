@@ -2,6 +2,8 @@
 
 ## Aron Ahmadia
 
+With apologies to *The Cathedral and the Bazaar*
+
 ## Introduction and Definitions
 
 ### Scientific Software Infrastructure:
@@ -12,7 +14,7 @@ Any scientific software or computing environment specifically designed to enable
 
 Any Scientific Software Infrastructure that possesses at least one of the following two attributes:
 
-R1.  Access to the software is restricted by a non-OSI license.
+R1.  Access to the software is restricted by a non-OSI license.  
 R2.  Access to the software is restricted to a particular hardware vendor.
 
 Double points for both restrictions.
@@ -27,47 +29,60 @@ Scientific Software Infrastructure uninhibited by either R1 or R2.
 
 #### Gardens
 
-MATLAB
+* MATLAB
 
 #### Meadows
 
-Scientific Python Stack
-Traditional Programming Languages (C, C++, Fortran)
-Octave
-Julia
+* Scientific Python Stack
+* Traditional Programming Languages (C, C++, Fortran)
+* Octave
+* Julia
 
 ### Analytical Environments
 
 #### Gardens
 
-Mathematica
-Magma
+* Mathematica
+* Magma
 
 #### Meadows
 
-Sage
+* Sage
 
 ### Parallel Computing Interfaces
 
 #### Gardens
 
-CUDA
+* CUDA
 
 #### Meadows
 
-MPI
-OpenMP
-OpenCL
+* MPI
+* OpenMP
+* OpenCL
+
+### Debugging Environments
+
+#### Gardens
+
+* Totalview
+* DDT
+
+#### Meadows
+
+* GDB
 
 *Jed points to ParMETIS and TetGen as examples of walled gardens that are almost meadows.*
 
 ## Discussion
 
-### What is the motivation for a binary classification?
+### The importance of the garden
 
-Automate
-Embed
-Extend
-Verify
+#### Allows industry to participate in the acceleration of scientific innovation
 
-### 
+### The limitations of the garden
+
+#### Decreases the impact of research funding by stifling reuse
+#### Decreases trust in algorithms and implementations
+#### Discourages citizen science
+#### Discourages automation and integration 
