@@ -23,6 +23,8 @@ Double points for both restrictions.
 
 Scientific Software Infrastructure uninhibited by either R1 or R2.
 
+**GVW: right now, they're *all* effectively gardens because of lack of skills among scientists --- a meadow you can't get into is a garden as far as you're concerned.  Cf. Berlin's distinction between positive and negative liberty.**
+
 ## Some illustrating examples
 
 ### Numerical Computing Environments
