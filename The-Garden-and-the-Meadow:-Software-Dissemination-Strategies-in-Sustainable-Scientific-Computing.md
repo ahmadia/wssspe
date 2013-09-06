@@ -2,14 +2,11 @@
 
 ## Aron Ahmadia, U.S. Army Research and Development Center
 
-With apologies to *The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary*
-
 ## Acknowledgements
 
-Thanks to [Greg Wilson](http://third-bit.com/), [Jed Brown](http://59a2.org/research/), and [Andy Terrel](http://andy.terrel.us/vita/) for helpful discussion and contribution of several points.
+Thanks to [Greg Wilson](http://third-bit.com/), [Jed Brown](http://59a2.org/research/), [Andy Terrel](http://andy.terrel.us/vita/), and [Patrick Wagstrom](http://academic.patrick.wagstrom.net/) for helpful discussion and contribution of several points.
 
 ## Introduction 
-
 
 ### Scientific Software Infrastructure
 
