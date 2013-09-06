@@ -31,7 +31,7 @@ Today's scientific software infrastructure, ranging from operating systems to sh
 Any scientific software infrastructure that possesses at least one of the following three attributes is released 'into' a garden:
 
 R1.  Access to inspect, modify, or use the software is restricted by a non-OSI license.  
-R2.  Access to build the software is restricted to a non-free environment.
+R2.  Access to build the software is restricted to a non-free environment.  
 R3.  Access to run the software is restricted to hardware supplied by a particular vendor.
 
 ### Meadow
