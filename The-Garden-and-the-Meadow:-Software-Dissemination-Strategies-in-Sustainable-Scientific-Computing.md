@@ -1,5 +1,4 @@
-## The Garden and the Meadow: Software Dissemination Strategies in Sustainable Scientific Computing 
-
+## [DRAFT for Submission](http://wssspe.researchcomputing.org.uk )
 ## Aron Ahmadia, U.S. Army Research and Development Center
 
 ## Acknowledgements
