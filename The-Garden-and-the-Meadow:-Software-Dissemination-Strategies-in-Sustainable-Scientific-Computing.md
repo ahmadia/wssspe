@@ -1,4 +1,4 @@
-## [DRAFT for Submission](http://wssspe.researchcomputing.org.uk )
+## [DRAFT for Submission to WSSSPE](http://wssspe.researchcomputing.org.uk )
 ## Aron Ahmadia, U.S. Army Research and Development Center
 
 ## Acknowledgements
