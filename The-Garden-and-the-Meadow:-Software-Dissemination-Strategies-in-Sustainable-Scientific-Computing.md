@@ -28,42 +28,22 @@ Today's scientific software infrastructure, ranging from operating systems to sh
 
 ### Garden
 
-Any scientific software infrastructure that possesses at least one of the following three attributes is released 'into' a garden:
+Any scientific software infrastructure that possesses either of the following two attributes is released 'into' a garden:
 
 R1.  Access to inspect, modify, or use the software is restricted by a non-OSI license.  
-R2.  Access to build the software is restricted to a non-free environment.  
-R3.  Access to run the software is restricted to hardware supplied by a particular vendor.
+R2.  Access to build or run the software is restricted to a non-free environment.  
 
 ### Meadow
 
-Any scientific software infrastructure uninhibited by R1, R2, or R3 is part of a meadow.
+Any scientific software infrastructure uninhibited by R1 or R2 is part of a meadow.
 
-## Some illustrating examples
+### Exemplars
 
-### Numerical Computing Environments
+There are many exemplars of both gardens and meadows in scientific computing infrastructure.  Starting at the level of operating systems, Windows and OS X are gardens, while Linux-based operating systems are usually meadows.  
 
-#### Gardens
+At a slightly higher level, almost all numerical programming environments are released into meadows.  These range from traditional programming languages such as C, C++, and Fortran, to newer high-productivity languages such as [Chapel](http://chapel.cray.com/download.html), [X10](http://x10-lang.org/x10-development/building-x10-from-source.html), and [Julia](http://julialang.org/).  A notable exception is MATLAB, a commercial numerical computing environment that provides a garden-walled core engine and development environment, but strongly encourages contributions to [MATLAB Central](http://www.mathworks.com/matlabcentral/FX_transition_faq.html).  New contributions to MATLAB Central all satisfy R1.  If the contributions can be run from Octave or Scilab, two engines in the meadows that are compatible with much of the MATLAB language, they also satisfy R2 and have effectively been released into meadows. Two important final community products in this space are the Scientific Python stack, and the R programming language and development environment.  Beyond the core environments, both the R and Scientific Python communities possess a strong tradition of releasing into the meadows, with participation and support from both academia and industry.
 
-* MATLAB
-
-#### Meadows
-
-* Traditional Programming Languages (C, C++, Fortran)
-* Octave
-* Scilab
-* Scientific Python Stack
-* Julia
-
-### Analytical Environments
-
-#### Gardens
-
-* Mathematica
-* Magma
-
-#### Meadows
-
-* Sage
+In the closely related arena of software for mathematical analysis, Mathematica and Magma are two well-known examples of gardens.  Sage is a notable meadow in this domain, constructed as an amalgam of 89 other meadows (including many software packages from Scientific Python and R).
 
 ### Parallel Computing Interfaces
 
@@ -112,4 +92,3 @@ Any scientific software infrastructure uninhibited by R1, R2, or R3 is part of a
 [Scientiﬁc software production: incentives and
 collaboration](http://herbsleb.org/web-pubs/pdfs/howison-scientific-2011.pdf)
 [A Vision and Strategy for Software for Science, Engineering, and Education: Cyberinfrastructure Framework for the 21st Century](http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf12113)
-
