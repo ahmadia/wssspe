@@ -24,23 +24,19 @@ Today's digital marketplaces have undergone a steady revolution in distribution.
 
 Recently, there has been a strong push to move publicly funded research data and papers from gardens into meadows.  The most prominent collection of manuscripts in the scientific meadows is Cornell University Library's [arXiv](http://arxiv.org/), which accepts public domain, Creative Commons Attribution, and Attribution-Noncommercial-ShareAlike licensed content.  The arXiv also accepts articles that it has been granted a non-exclusive and irrevocable license to distribute.  Although this class of article does not completely meet the definition of a meadow, this compromise appears to be agreeable to most scholars, publishers, and curators.
 
-Today's scientific software infrastructure, ranging from operating systems to shell scripts, can be similarly categorized into gardens and meadows.
+Today's scientific software infrastructure, ranging from operating systems to shell scripts, can be similarly categorized into gardens and meadows.  We propose the following formal definition of a scientific software garden.  
 
-### Garden:
+### Garden
 
-Any Scientific Software Infrastructure that possesses at least one of the following three attributes:
+Any scientific software infrastructure that possesses at least one of the following three attributes is released 'into' a garden:
 
-R1.  Access to modify or use the software is restricted by a non-OSI license.  
-R2.  Access to build the software is restricted to a non-free language or environment.
-R3.  Access to run the software is restricted to a particular hardware vendor.
+R1.  Access to inspect, modify, or use the software is restricted by a non-OSI license.  
+R2.  Access to build the software is restricted to a non-free environment.
+R3.  Access to run the software is restricted to hardware supplied by a particular vendor.
 
-Triple-points for software that manages to provide all three restrictions.
+### Meadow
 
-### Meadow:
-
-Scientific Software Infrastructure uninhibited by either R1, R2, or R3.
-
-**GVW: right now, they're *all* effectively gardens because of lack of skills among scientists --- a meadow you can't get into is a garden as far as you're concerned.  Cf. Berlin's distinction between positive and negative liberty.**
+Any scientific software infrastructure uninhibited by R1, R2, or R3 is part of a meadow.
 
 ## Some illustrating examples
 
@@ -96,6 +92,9 @@ Scientific Software Infrastructure uninhibited by either R1, R2, or R3.
 
 ## Discussion
 
+###
+**GVW: right now, they're *all* effectively gardens because of lack of skills among scientists --- a meadow you can't get into is a garden as far as you're concerned.  Cf. Berlin's distinction between positive and negative liberty.**
+
 ### The importance of the garden
 
 #### Allows industry to participate in the acceleration of scientific innovation
@@ -110,3 +109,7 @@ Scientific Software Infrastructure uninhibited by either R1, R2, or R3.
 ## References
 
 [Troubling Trends in Scientific Software Use](http://www.sciencemag.org/content/340/6134/814)
+[Scientiﬁc software production: incentives and
+collaboration](http://herbsleb.org/web-pubs/pdfs/howison-scientific-2011.pdf)
+[A Vision and Strategy for Software for Science, Engineering, and Education: Cyberinfrastructure Framework for the 21st Century](http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf12113)
+
