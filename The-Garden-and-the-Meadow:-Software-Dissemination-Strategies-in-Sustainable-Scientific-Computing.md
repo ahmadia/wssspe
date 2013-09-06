@@ -45,35 +45,9 @@ At a slightly higher level, almost all numerical programming environments are re
 
 In the closely related arena of software for mathematical analysis, Mathematica and Magma are two well-known examples of gardens.  Sage is a notable meadow in this domain, constructed as an amalgam of 89 other meadows (including many software packages from Scientific Python and R).
 
-### Parallel Computing Interfaces
-
-#### Gardens
-
-* CUDA
-
-#### Meadows
-
-* MPI
-* OpenMP
-* OpenCL
-
-### Debugging Environments
-
-#### Gardens
-
-* Totalview
-* DDT
-
-#### Meadows
-
-* GDB
-
-*Jed points to ParMETIS and TetGen as examples of walled gardens that are almost meadows.*
+A final example comes from the recent emergence of heterogeneous computing languages.  The first notable heterogeneous computing language, Brook, was released as a meadow 2003.  Four years later, Nvidia released CUDA as a garden in 2007.  OpenCL, which can be considered as an alternative to CUDA, was released as a meadow in 2008.
 
 ## Discussion
-
-###
-**GVW: right now, they're *all* effectively gardens because of lack of skills among scientists --- a meadow you can't get into is a garden as far as you're concerned.  Cf. Berlin's distinction between positive and negative liberty.**
 
 ### The importance of the garden
 
@@ -85,6 +59,13 @@ In the closely related arena of software for mathematical analysis, Mathematica 
 #### Decreases trust in algorithms and implementations
 #### Discourages citizen science
 #### Discourages automation and integration 
+
+### Other comments
+
+**GVW: right now, they're *all* effectively gardens because of lack of skills among scientists --- a meadow you can't get into is a garden as far as you're concerned.  Cf. Berlin's distinction between positive and negative liberty.**
+*Jed points to ParMETIS and TetGen as examples of walled gardens that are almost meadows.*
+
+
 
 ## References
 
