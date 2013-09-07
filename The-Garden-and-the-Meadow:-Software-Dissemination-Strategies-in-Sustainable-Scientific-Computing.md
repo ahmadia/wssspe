@@ -70,7 +70,7 @@ It is clear that industrial gardens play an important roles in the development o
 
 ## References
 
-[Troubling Trends in Scientific Software Use](http://www.sciencemag.org/content/340/6134/814)
+[Troubling Trends in Scientific Software Use](http://www.sciencemag.org/content/340/6134/814)  
 [Scientiﬁc software production: incentives and
-collaboration](http://herbsleb.org/web-pubs/pdfs/howison-scientific-2011.pdf)
+collaboration](http://herbsleb.org/web-pubs/pdfs/howison-scientific-2011.pdf)  
 [A Vision and Strategy for Software for Science, Engineering, and Education: Cyberinfrastructure Framework for the 21st Century](http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf12113)
