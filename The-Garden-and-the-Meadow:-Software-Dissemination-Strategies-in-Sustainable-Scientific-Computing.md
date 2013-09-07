@@ -62,7 +62,7 @@ The limitations in access to scientific software gardens also discourages the ro
 
 ## Closing Thoughts
 
-Despite the growing success of the meadow model for scientific software dissemination, there remains a cultural entrenchment among many scientists to release their software into gardens.  This may be attributed to the negligence of funding bodies and review panels in rewarding the efforts of scientists who release scientific software into meadows.  It may also be attributed to several other reasons, several which have been outlined by Randy LeVeque in [Top Ten Reasons To Not Share Your Code (and why you should anyway](http://www.siam.org/news/news.php?id=2064).  Broader attention to this issue is needed as part of our commitment to improving the sustainability of scientific infrastructure.
+Despite the growing success of the meadow model for scientific software dissemination, there remains a cultural entrenchment among many scientists to release their software into gardens.  This may be attributed to the negligence of funding bodies and review panels in rewarding the efforts of scientists who release scientific software into meadows.  It may also be attributed to several other reasons, several which have been outlined by Randy LeVeque in [Top Ten Reasons To Not Share Your Code (and why you should anyway)](http://www.siam.org/news/news.php?id=2064).  Broader attention to this issue is needed as part of our commitment to improving the sustainability of scientific infrastructure.
 
 ## Further Reading
 
