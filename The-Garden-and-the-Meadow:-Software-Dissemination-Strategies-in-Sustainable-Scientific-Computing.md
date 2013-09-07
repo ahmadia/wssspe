@@ -30,7 +30,7 @@ Today's scientific software infrastructure, ranging from operating systems to sh
 Any scientific software infrastructure that possesses either of the following two attributes is released 'into' a garden:
 
 R1.  Access to inspect, modify, or use the software is restricted by a non-OSI license.  
-R2.  Access to build or run the software is restricted to a non-free environment.  
+R2.  Access to build or run the software is restricted to a non-freely available environment.  
 
 ### Meadow
 
@@ -40,37 +40,33 @@ Any scientific software infrastructure uninhibited by R1 or R2 is part of a mead
 
 There are many exemplars of both gardens and meadows in scientific computing infrastructure.  Starting at the level of operating systems, Windows and OS X are gardens, while Linux-based operating systems are usually meadows.  
 
-At a slightly higher level, almost all numerical programming environments are released into meadows.  These range from traditional programming languages such as C, C++, and Fortran, to newer high-productivity languages such as [Chapel](http://chapel.cray.com/download.html), [X10](http://x10-lang.org/x10-development/building-x10-from-source.html), and [Julia](http://julialang.org/).  A notable exception is MATLAB, a commercial numerical computing environment that provides a garden-walled core engine and development environment, but strongly encourages contributions to [MATLAB Central](http://www.mathworks.com/matlabcentral/FX_transition_faq.html).  New contributions to MATLAB Central all satisfy R1.  If the contributions can be run from Octave or Scilab, two engines in the meadows that are compatible with much of the MATLAB language, they also satisfy R2 and have effectively been released into meadows. Two important final community projects in the meadows are the Scientific Python stack, and the R programming language and development environment.  Beyond their core environments, both the R and Scientific Python communities possess a strong tradition of releasing into the meadows, with participation and support from both academia and industry.
+At a slightly higher level, almost all numerical programming environments are released into meadows.  These range from traditional programming languages such as C, C++, and Fortran, to newer high-productivity languages such as [Chapel](http://chapel.cray.com/download.html), [X10](http://x10-lang.org/x10-development/building-x10-from-source.html), and [Julia](http://julialang.org/).  A notable exception is MATLAB, a commercial numerical computing environment that provides a garden-walled core engine and development environment, but strongly encourages contributions to [MATLAB Central](http://www.mathworks.com/matlabcentral/FX_transition_faq.html).  New contributions to MATLAB Central all satisfy R1.  If the contributions can be adapted to Octave or Scilab, two engines in the meadows that are compatible with much of the MATLAB language, they also satisfy R2 and have effectively been released into meadows. Two important final community projects in the meadows are the Scientific Python stack, and the R programming language and development environment.  Beyond their core environments, both the R and Scientific Python communities possess a strong tradition of releasing into the meadows, with participation and support from both academia and industry.
 
 In the closely related arena of software for mathematical analysis, Mathematica and Magma are two well-known examples of gardens.  Sage is a notable meadow in this domain, constructed as an amalgam of 89 other meadows (including many software packages from Scientific Python and R).
 
-A final example in high performance computing comes from the recent emergence of heterogeneous computing languages.  An early notable heterogeneous computing language, Brook, was released as a meadow 2003.  Four years later, Nvidia released CUDA as a garden in 2007.  OpenCL, which can be considered as an alternative to CUDA, was released as a meadow in 2008.
+A final example in high performance computing comes from the recent emergence of heterogeneous computing languages.  An early notable heterogeneous computing language, Brook, was released as a meadow 2003.  Four years later, Nvidia released CUDA, strongly influenced by Brook, as a garden in 2007.  The OpenCL standard, which can be considered as a derivative alternative to the CUDA language, was released as a meadow in 2008.  
 
 ## Discussion
 
-It is clear that industrial gardens play an important roles in the development of sustainable scientific software infrastructure.  For example, the MATLAB programming environment has been transformational in the development of high-level, reusable software for research in applied mathematics and sciences.  Gardens allow industry to participate in the acceleration of scientific innovation.
+### The Importance of the Industrial Garden
 
-### The importance of the garden
+It is clear that industrial gardens play an important role in the dissemination of scientific research.  For example, the MATLAB programming environment has been transformational in the promotion of wide reuse of scientific software.  Three notable examples of research software widely disseminated and reused through MATLAB include [LAPACK](http://www.mathworks.com/company/newsletters/articles/matlab-incorporates-lapack.html), [FFTW](http://www.mathworks.com/help/matlab/ref/fftw.html) and [SuiteSparse](http://www.cise.ufl.edu/research/sparse/SuiteSparse/).  LAPACK, FFTW and SuiteSparse are meadows projects that have been incorporated into the MATLAB garden.   
 
-#### Allows industry to participate in the acceleration of scientific innovation
+### Limitations of the Garden
 
-### The limitations of the garden
+Unfortunately, software infrastructure developed within gardens have several limitations, most notably barriers to reuse.  A notable example is [CVX](http://cvxr.com/cvx/), a GPL-licensed MATLAB-based modeling system for disciplined convex programming.  Despite its free licensing, it is impossible to use CVX in embedded computers or massively parallel environments, or in any situation where MATLAB is not otherwise available.  Although there have been several attempts to reimplement CVX in other programming environments, reusing CVX's advances in disciplined convex programming remain restricted to the MATLAB garden.
 
-#### Decreases the impact of research funding by stifling reuse
-#### Decreases trust in algorithms and implementations
-#### Discourages citizen science
-#### Discourages automation and integration 
+Beyond limitations to reuse, constrained access to software infrastructure decreases trust in algorithms and their implementations.  It is not sufficient to grant access to software restricted to temporary peer review.  Bugs are frequently found in software projects throughout their lifecycle.  Access to the source does not guarantee that a software is bug-free, but it does improve independent verification, and as a consequence, trust.  
 
-### Other comments
+The limitations in access to scientific software gardens also discourages the role of citizens in the development of sustainable scientific software infrastructure.  This is especially important because many scientists are not formally trained in software engineering.  Scientific software infrastructure properly released into the meadows has been integrated into larger software projects, improving quality, reuse, and sustainability.  Beyond the earlier MATLAB examples, another notable example of this is the [LLVM](http://llvm.org/) compiler infrastructure project, which was released into the meadows as part of Chris Lattner's UIUC Master's thesis in 2003, and which has since gained significant industry support and use.  
 
-**GVW: right now, they're *all* effectively gardens because of lack of skills among scientists --- a meadow you can't get into is a garden as far as you're concerned.  Cf. Berlin's distinction between positive and negative liberty.**
-*Jed points to ParMETIS and TetGen as examples of walled gardens that are almost meadows.*
+## Closing Thoughts
 
+Despite the growing success of the meadow model for scientific software dissemination, there remains a cultural entrenchment among many scientists to release their software into gardens.  This may be attributed to the negligence of funding bodies and review panels in rewarding the efforts of scientists who release scientific software into meadows.  It may also be attributed to several other reasons, several which have been outlined by Randy LeVeque in [Top Ten Reasons To Not Share Your Code (and why you should anyway](http://www.siam.org/news/news.php?id=2064).  Broader discussion and attention to this issue is needed as part of our commitment to improving the sustainability of scientific infrastructure.
 
-
-## References
+## Further Reading
 
 [Troubling Trends in Scientific Software Use](http://www.sciencemag.org/content/340/6134/814)  
 [Scientiﬁc software production: incentives and
 collaboration](http://herbsleb.org/web-pubs/pdfs/howison-scientific-2011.pdf)  
-[A Vision and Strategy for Software for Science, Engineering, and Education: Cyberinfrastructure Framework for the 21st Century](http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf12113)
+[A Vision and Strategy for Software for Science, Engineering, and Education: Cyberinfrastructure Framework for the 21st Century](http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf12113)  
