@@ -1,5 +1,5 @@
 ## [Submitted to WSSSPE](http://wssspe.researchcomputing.org.uk )
-## Aron Ahmadia, U.S. Army Research and Development Center
+## Aron Ahmadia, U.S. Army Engineer Research and Development Center
 
 ## Acknowledgements
 
