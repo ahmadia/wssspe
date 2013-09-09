@@ -1,9 +1,11 @@
-## [Submitted to WSSSPE](http://wssspe.researchcomputing.org.uk )
-## Aron Ahmadia, U.S. Army Engineer Research and Development Center
+% The Garden And the Meadow: Software Dissemination Strategies in Sustainable Scientific Computing
+% Aron Ahmadia, U.S. Army Engineer Research and Development Center
+
+This article is currently in public review for [WSSSPE](http://wssspe.researchcomputing.org.uk/).  Comments and discussion welcome at its [Issues](https://github.com/ahmadia/wssspe/issues) page. 
 
 ## Acknowledgements
 
-Thanks to [Greg Wilson](http://third-bit.com/), [Jed Brown](http://59a2.org/research/), [Andy Terrel](http://andy.terrel.us/vita/), and [Patrick Wagstrom](http://academic.patrick.wagstrom.net/) for helpful discussion and contribution of several points.
+Thanks to [Greg Wilson](http://third-bit.com/), [Jed Brown](http://59a2.org/research/), [Andy Terrel](http://andy.terrel.us/vita/), and [Patrick Wagstrom](http://academic.patrick.wagstrom.net/) for helpful discussion and contribution of several points.  This article was written collaboratively on [GitHub](https://github.com/ahmadia/wssspe).
 
 ## Introduction 
 
@@ -17,9 +19,9 @@ Scientific software infrastructure encompasses the entire space of digital produ
 
 ### Cathedrals and Bazaars
 
-In 1999, Eric S. Raymond released the essay ["The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary"](http://www.catb.org/esr/writings/homesteading/).  The essay contrasted two different open source development models.  The first model, which was more common at the time, was the cathedral, characterized by long release cycles, single-developer or small development teams, and closed access to development repositories.  The new model, the bazaar, was characterized by short release cycles, community-driven development, and open access to development repositories.  The essay (and the underlying reality of the advantages of the bazaar model over the cathedral model) was incredibly influential in the open source movement.  Shortly afterward, many prominent open source projects (GNU Emacs, GCC)  switched from the cathedral model to the bazaar model.
+In 1999, Eric S. Raymond released the essay ["The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary"](http://www.catb.org/esr/writings/homesteading/).  The essay contrasted two different open source development models.  The first model, which was more common at the time, was the cathedral, characterized by long release cycles, single-developer or small development teams, and closed access to development repositories.  The new model, the bazaar, was characterized by short release cycles, community-driven development, and open access to development repositories.  The essay (and the underlying reality of the advantages of the bazaar model over the cathedral model) was incredibly influential in the open source movement.  Shortly afterward, many prominent open source projects such as GNU Emacs and GCC switched from the cathedral model to the bazaar model.
 
-Unfortunately, many of the developers of open source scientific software seem to have missed this development.  A number of influential open source scientific software projects such as [CESM](http://www.cesm.ucar.edu/working_groups/Software/secp/repo/) and [FLASH](http://flash.uchicago.edu/site/flashcode/) still follow the cathedral model.  This essay is not about cathedrals and bazaars, however, the use of a metaphorical dichotomy is apt for describing another challenge for sustainable scientific software development.  This essay proposes defining a bifurcation in how software is digitally disseminated, either in the form of walled gardens, or freely accessible meadows.
+Unfortunately, many of the developers of open source scientific software seem to have missed this development.  A number of influential open source scientific software projects such as [CESM](http://www.cesm.ucar.edu/working_groups/Software/secp/repo/) and [FLASH](http://flash.uchicago.edu/site/flashcode/) still follow the cathedral model.  This essay is not about cathedrals and bazaars, however, the use of a metaphorical dichotomy is apt for describing another challenge for sustainable scientific software development.  This essay proposes defining this bifurcation in how software is digitally disseminated, either in the form of walled gardens, or freely accessible meadows.
 
 ### Gardens and Meadows
 
@@ -62,7 +64,7 @@ Unfortunately, software infrastructure developed within gardens (as opposed to b
 
 Beyond limitations to reuse, constrained access to software infrastructure decreases trust in algorithms and their implementations.  It is not sufficient to grant access to software restricted to temporary peer review.  Bugs are frequently found in software projects throughout their lifecycle.  Access to the source does not guarantee that a software is bug-free, but it does improve independent verification, and as a consequence, trust.  
 
-The limitations in access to scientific software gardens also discourages the role of citizens in the development of sustainable scientific software infrastructure.  This is especially important because many scientists are not formally trained in even the basic principles of software engineering.  Scientific software infrastructure properly released into the meadows has been integrated into larger software projects, improving quality, reuse, and sustainability.  Beyond the earlier MATLAB examples, another notable example of this is the [LLVM](http://llvm.org/) compiler infrastructure project, which was released into the meadows as part of Chris Lattner's UIUC Master's thesis in 2003, and which has since gained significant industry support and use.  
+The limitations in access to scientific software gardens also discourages the role of citizens in the development of sustainable scientific software infrastructure.  This is especially important because many scientists are not formally trained in even the basic principles of software engineering.  Scientific software infrastructure properly released into the meadows has been integrated into larger software projects, improving quality, reuse, and sustainability.  Beyond the earlier MATLAB examples, another notable example of this is the [LLVM](http://llvm.org/) compiler infrastructure project, which was released into the meadows as part of Chris Lattner's UIUC Master's thesis in 2003, and which has since gained significant industry support and use, including incorporation as the default compiler in new version of OS X.
 
 ## Closing Thoughts
 
@@ -74,3 +76,4 @@ Despite the growing success of the meadow model for scientific software dissemin
 [Scientiﬁc software production: incentives and
 collaboration](http://herbsleb.org/web-pubs/pdfs/howison-scientific-2011.pdf)  
 [A Vision and Strategy for Software for Science, Engineering, and Education: Cyberinfrastructure Framework for the 21st Century](http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf12113)  
+[Best Practices for Scientific Computing](http://arxiv.org/pdf/1210.0530v3.pdf)
