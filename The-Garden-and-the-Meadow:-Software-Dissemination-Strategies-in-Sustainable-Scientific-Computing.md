@@ -11,7 +11,7 @@ Thanks to [Greg Wilson](http://third-bit.com/), [Jed Brown](http://59a2.org/rese
 
 Scientists spend a surprising amount of time developing and using software.  A [2009 survey study](http://dl.acm.org/citation.cfm?id=1556928) reported that scientists spend an average of 40% using software and 30% developing it.  A [2011 survey](http://liberty.princeton.edu/Publications/sc11_survey.pdf) conducted at Princeton reported a similar observation.  Despite this consumption of research effort, the [USA's National Science Foundation Advisory Committee for CyberInfrastructure Task Force on Software for Science and Engineering](https://www.nsf.gov/cise/aci/taskforces/TaskForceReport_Software.pdf) noted:
 
-> Software infrastructure has evolved organically and inconsistently, with its development and adoption coming largely as by-products of community responses to other targeted initiatives
+> [NSF-Funded scientific] software infrastructure has evolved organically and inconsistently, with its development and adoption coming largely as by-products of community responses to other targeted initiatives
 
 Scientific software infrastructure encompasses the entire space of digital products which enable or accelerate scientific discovery.  Much of today's scientific software infrastructure is general-purpose, that is, it is not primarily designed for or used by scientists.  For example, there are very few components in today's most commonly used operating systems that are specifically intended for use by scientists.  Although it is commonly recognized that industry trends in hardware development drive scientific hardware infrastructure, industry trends in software infrastructure development have similar far-reaching effects on scientific software development.
 
